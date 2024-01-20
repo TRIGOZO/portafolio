@@ -2,16 +2,67 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="cuerpo.css">
+    <link rel="stylesheet" href="diseño/cuerpo.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
 </head>
 <body>
+<header>
+    <div>
+        <span>Yon Trigozo</span>
+    </div>
+    <div>
+            <ul>
+                <li><a href="">HOGAR</a></li>
+                <li><a href="">ACERCA DE</a></li>
+                <li><a href="">PROYECTOS</a></li>
+                <li><a href="">CONTACTO</a></li>
+            </ul>
+    </div>
+</header>
+<section>
     <center>
-        <h1>hola munado</h1>
-        <h1>hola</h1>
-        <h1>welcome</h1>
+        <h1>Oye, soy Yon Trigozo.</h1>
+        <p>Un desarrollador web enfocado de Frontend concentrador de la Frontend de los Sitios Web y Aplicaciones Web que conducen al éxito de la producto</p>
+        <button>PROYECTOS</button>
     </center>
+</section>
+<section>
+<center>
+    <h1>ACERDA DE MI</h1>
+    <P>Aquí encontrará más información sobre mí, lo que hago, y mi habilidades actuales principalmente en términos de programación y tecnología</P>
+    <BUtton>contactenos</BUtton>
 
+</center>
+</section>
+<center>
+    <h1>PROYECTOS</h1>
+    <p>Aquí encontrará más información sobre mí, lo que hago, y mi habilidades actuales principalmente en términos de programación y tecnología</p>
+    <button>ESTUDIO DE CASO</button>
+</section>
+<center>
+    <h1>CONTACTO</h1>
+ <form action="procesar_formulario.php" method="post">
+        <!-- Cambia "procesar_formulario.php" al nombre de tu archivo de procesamiento del formulario -->
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+</center>
+</section>
+<footer>
+     <p>Derechos de autor © 2024 Yon Trigozo</p>
+     <center>
+       <h2>Dios es Amor</h2> 
+     </center>
+</footer>
 </body>
 </html>
