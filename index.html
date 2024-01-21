@@ -2,21 +2,26 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="diseño/cuerpo.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="diseño/cuerpo.css">
     <title>Portafolio</title>
 </head>
 <body>
-<header>
-    <div>
-        <span>Yon Trigozo</span>
+<header class="header">
+    <div class="header_content">
+        <div class="header_logo-container">
+            <span>Yon Trigozo</span>
+        </div>
+        <div class="header_main">
+
+        </div>
     </div>
-    <div>
+    <div class="header_menu">
             <ul>
-                <li><a href="">HOGAR</a></li>
-                <li><a href="">ACERCA DE</a></li>
-                <li><a href="">PROYECTOS</a></li>
-                <li><a href="">CONTACTO</a></li>
+                <li><a href="" id="btnInicio">HOGAR</a></li>
+                <li><a href="" id="btnAcerca">ACERCA DE</a></li>
+                <li><a href="" id="btnProyecto">PROYECTOS</a></li>
+                <li><a href="" id="btnContacto">CONTACTO</a></li>
             </ul>
     </div>
 </header>
@@ -25,6 +30,12 @@
         <h1>Oye, soy Yon Trigozo.</h1>
         <p>Un desarrollador web enfocado de Frontend concentrador de la Frontend de los Sitios Web y Aplicaciones Web que conducen al éxito de la producto</p>
         <button>PROYECTOS</button>
+            <div class="home-hero_social"><p>github</p></div>
+            <div class="home-hero_social"><p>instagram</p></div>
+            <div class="home-hero_social"><p>facebook</p></div>
+            <div class="home-hero_social"><p>whatsapp</p></div>
+            <di class="home-hero_social">tiktok</div>
+        </div>
     </center>
 </section>
 <section>
@@ -35,13 +46,16 @@
 
 </center>
 </section>
+<section>
 <center>
     <h1>PROYECTOS</h1>
     <p>Aquí encontrará más información sobre mí, lo que hago, y mi habilidades actuales principalmente en términos de programación y tecnología</p>
     <button>ESTUDIO DE CASO</button>
 </section>
+<section>
 <center>
     <h1>CONTACTO</h1>
+    <p>Siéntase libre de Contactarme al enviar el siguiente formulario y voy a obtener volver a ti lo antes posible.</p>
  <form action="procesar_formulario.php" method="post">
         <!-- Cambia "procesar_formulario.php" al nombre de tu archivo de procesamiento del formulario -->
 
