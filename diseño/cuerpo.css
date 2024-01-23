@@ -15,10 +15,31 @@
         height: auto;
     }
 }
+header{
+  padding: 2% 4%;
+  background-color: #f8d7da;
+  color: black;
+}
+.header_content{
+  margin-top: 3%;
+}
+.header_menu{
+  font-size: 3vw;
+
+}
+ul{
+  list-style: none;
+}
+section{
+  margin: 3% 4%;
+  text-align: justify;
+}
 body{
-    background-color: rgba(255, 255, 255, 0.438);
+  font-family: Arial, sans-serif;
 }
 footer{
     background-color: rgb(0, 0, 0);
     color: aliceblue;
+    text-align: center;
+    padding: 2% ;
 }
