@@ -258,7 +258,7 @@ label{
 .boxy:nth-child(1){
   width: 50%;
   min-height: 600px;
-  background: url('/img/logo.jpg') bottom no-repeat;
+  background: url('/img/neri.png') bottom no-repeat;
   background-size: cover;
   position: relative;
   z-index: 999;
