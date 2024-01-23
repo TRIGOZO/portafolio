@@ -1,34 +1,70 @@
-@media (min-width: 600px) {
-  .column {
-    width: 50%;
-  }
-}
-@media (max-width: 600px) {
-  .nav {
+/* Estilos generales para el encabezado */
+.header_content {
     display: flex;
-    flex-direction: column;
-  }
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    color: white;
 }
-@media (max-width:600px){
-    img{
-        max-width: 100%;
-        height: auto;
-    }
-}
-header{
-  padding: 2% 4%;
-  background-color: #f8d7da;
-  color: black;
-}
-.header_content{
-  margin-top: 3%;
-}
-.header_menu{
-  font-size: 3vw;
 
+/* Estilos para el logo y el texto */
+.header_logo-container {
+    display: flex;
+    align-items: center;
 }
-ul{
-  list-style: none;
+
+.header_logo-img-cont img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Estilos para el icono del menú y el menú en dispositivos pequeños */
+.menu-icon {
+    display: none; /* Oculta el icono del menú por defecto */
+    cursor: pointer;
+}
+
+.header_menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header_menu li {
+    margin-right: 15px;
+}
+
+.header_menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.header_menu a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el menú en dispositivos pequeños */
+@media only screen and (max-width: 768px) {
+    .header_menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+    }
+
+    .header_menu.show {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
 }
 section{
   margin: 3% 4%;
