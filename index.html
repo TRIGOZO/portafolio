@@ -1,156 +1,351 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="diseño/css/cuerpo.css">
-    <title>Portafolio</title>
-</head>
- <body>
-    <section class="photo" id="inicio">
-  
-        <div class="nav" id="sticker">
-        <label for="toggle">&#9776</label>
-        <input type="checkbox" id="toggle" />
-        <div class="menu">
-          <h5 class="logo">logo-trigozo</h5>
-          <a href="#inicio">inicio</a>
-          <a href="#servicio">curruculum</a>
-          <a href="#trabajo">proyecto</a>
-          <a href="#contacto">contacto</a>
-        </div>
-      </div>
-        <div class="photo-text">
-            <img src="/img/neri.png" alt="" width="450px">
-        <h4 data-ix="skype"><center>HOLA, SOY YON TRIGOZO.</center></h4>
-        <p data-ix="subtitle-hero-up">Un desarrollador web centrado en el frontend que construye el frontend de sitios web y aplicaciones web que conduce al éxito del producto general.</p>
-          </div>
-        <div class="overlay"></div>
-      </section>
-      <section class="content">
-        <div class="grand-title" id="servicio">
-          <h4 data-ix="slowfade-scroll-bigs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, repellendus!</h4>
-        </div>
-        <div class="text">
-          <div class="inner-text">
-            <h3 data-ix="slowfade-scroll-bigs">genialidea</h3>
-            <i class="ic ion-fork"></i>
-            <div class="text-box">
-              <h5 data-ix="slowfade-scroll-bigs">genialidea</h5>
-              <p data-ix="slowfade-scroll-bigs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, modi!</p>
-            </div>
-          </div>
-          <div class="inner-text">
-            <h3 data-ix="slowfade-scroll-bigs">genialidea</h3>
-            <i class="ic ion-knife"></i>
-            <div class="text-box">
-              <h5 data-ix="slowfade-scroll-bigs">genialidea</h5>
-              <p data-ix="slowfade-scroll-bigs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, modi!</p>
-            </div>
-          </div>
-          <div class="inner-text">
-            <h3 data-ix="slowfade-scroll-bigs">genialidea</h3>
-            <i class="ic ion-spoon"></i>
-            <div class="text-box">
-              <h5 data-ix="slowfade-scroll-bigs">genialidea</h5>
-              <p data-ix="slowfade-scroll-bigs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, modi!</p>
-            </div>
-          </div>
-        </div>
-      
-        <div class="inner-content">
-          <div class="boxy"></div>
-          <div class="boxy">
-            <div id="slider">
-              <figure>
-                <ul>
-                  <li>
-                    <h4>Lorem ipsum 1</h4>
-                    <img src="https://unsplash.it/80?image=823" alt="" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, perspiciatis.</p>
-                  </li>
-                  <li>
-                    <h4>Lorem ipsum 2</h4>
-                    <img src="https://unsplash.it/80?image=823" alt="" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, fugiat!</p>
-                  </li>
-                  <li>
-                    <h4>Lorem ipsum 3</h4>
-                    <img src="https://unsplash.it/80?image=823" alt="" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, nemo!</p>
-                  </li>
-                  <li>
-                    <h4>Lorem ipsum 4</h4>
-                    <img src="https://unsplash.it/80?image=823" alt="" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, consequatur.</p>
-                  </li>
-                </ul>
-              </figure>
-            </div>
-          </div>
-        </div>
-      
-        <section class="portafolio" id="trabajo">
-          <h4 data-ix="slowfade-scroll-bigs">Trabajos</h4>
-          <div class="portafolio-container">
-            <section class="portafolio-item">
-              <img src="img/logo.jpg" alt="" class="portafolio-img" />
-              <section class="portafolio-text">
-                <h5>genialidea</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus doloremque, error nostrum tempora sapiente corporis.</p>
-              </section>
-            </section>
-            <section class="portafolio-item">
-              <img src="img/logo.jpg" alt="" class="portafolio-img"/>
-              <section class="portafolio-text">
-                <h5>genialidea.</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus doloremque, error nostrum tempora sapiente corporis.</p>
-              </section>
-            </section>
-            <section class="portafolio-item">
-              <img src="img/logo.jpg" alt="" class="portafolio-img"/>
-              <section class="portafolio-text">
-                <h5>genialidea</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus doloremque, error nostrum tempora sapiente corporis.</p>
-              </section>
-            </section>
-          </div>
-        </section>
-      </section>
-      <div class="footer" id="contacto">
-        <h4 data-ix="slowfade-scroll-bigs">Contacto</h4>
-        <div class="container">
-        <form action="enviar.php" method="post">
-          <ul class="flex-outer">
-            <li>
-              <label for="nombre">Nombre</label>
-              <input type="text" name="nombre" placeholder="Ingresa Nombre" class="rect" required>
-            </li>
-            <li>
-              <label for="correo">Correo</label>
-              <input type="email" name="correo" placeholder="Ingresa Correo" class="rect" required>
-            </li>
-            <li>
-              <label for="fono">Teléfono</label>
-              <input type="text" name="telefono" placeholder="Ingresa Teléfono" class="rect" required>
-            </li>
-            <li>
-              <label for="mensaje">Mensaje</label>
-              <textarea rows="6" name="mensaje" class="rect" required></textarea>
-            </li>
-            <li class="center">
-              <button type="submit">Enviar</button>
-            </li>
-          </ul>
-        </form>
+    <meta name="description" content="Portafolio | Mariana Arias Desarrolladora Web">
+    <meta name="robots" content="index,follow">
 
-      </div>
-      </div>
-      <footer>
-        <p>Derechos de autor © 2024 Yon Trigozo</p>
-        <center>
-          <h2>Dios es Amor</h2> 
-        </center>
+    <title>Mariana Arias | Desarrolladora Web Front-End</title>
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
+    <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container--loader">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header">
+        <img src="./assets/images/logo-personal.png" alt="Logo Portafolio" class="logo__header"">
+
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Home</a>
+            <a href="#sobreMi" data-section="menu" data-value="item2">Sobre mí</a>
+            <a href="#habilidades" data-section="menu" data-value="item3">Habilidades</a>
+            <a href="#formacion" data-section="menu" data-value="item4">Formación</a>
+            <a href="#proyectos" data-section="menu" data-value="item5">Proyectos</a>
+            <a href="#contacto" data-section="menu" data-value="item6">Contacto</a>
+
+            <!-- Idiomas de la página -->
+            <div id="flags" class="flags">
+                <div class="flags__item" data-language="es">
+                    <img src="./assets/images/icon-spain.png" alt="Español/Spain">
+                </div>
+                <div class="flags__item" data-language="en">
+                    <img src="./assets/images/icon-en.png" alt="Inglés/English">
+                </div>
+            </div>
+        </nav>
+
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="home" id="home">
+            <picture class="container_image-home" data-aos="zoom-in">
+                <img class="image_home" src="./assets/images/neri.png" alt="Ilustración mujer y plantas">
+            </picture>
+            
+            <div class="home_info">
+                <div class="container_text-info">
+                    <p class="home_text-1" data-section="home" data-value="home_text-1">Hola! Soy</p>
+                    <p class="home_text-2">Yon Trigozo</p>
+                </div>
+
+                <div>
+                    <p class="home_text-3 text-type" data-section="home" data-value="home_text-3">Desarrollador web Front-End </p>
+                </div>
+
+                <div class="container_parrafo-info">
+                    <p data-section="home" data-value="parrafo-info">Egresado Desarrollo de Sistemas de Información y me estoy especializando en programación Web Frontend. Como persona amante a los diseños intuitivos y estéticamente agradables busco crear proyectos que brinden la mejor experiencia para el usuario.</p>
+                </div>
+
+                <div class="container_button">
+                    <a href="https://drive.google.com/file/d/1vqNvTy7TjiHEr33-bIs6hAqqS5iU5ccJ/view" target="_blank">
+                        <button class="cv_button" data-section="home" data-value="cv_button">Descargar CV</button>
+                    </a>
+                    <a href="#contacto">
+                        <button class="contact_button" data-section="home" data-value="contact_button">Contacto</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="links">
+                <a href="https://www.linkedin.com/in/mariana-arias-montoya-b37a311a7/" target="_blank">
+                    <img src="./assets/images/icon-linkedin.png" alt="LinkedIn" class="icon-linkedin">
+                </a>
+                <a href="https://github.com/mariasmoUN" target="_blank">
+                    <img src="./assets/images/icon-github.png" alt="GitHub" class="icon-github">
+                </a>
+                <a href="https://codepen.io/mariasmoUN" target="_blank">
+                    <img src="./assets/images/icon-codepen.png" alt="CodePen" class="icon-CodePen">
+                </a>
+                <a href="https://www.instagram.com/mar.am0410/?next=%2F" target="_blank">
+                    <img src="./assets/images/icon-instagram.png" alt="Instagram" class="icon-instagram">
+                </a>
+            </div>
+        </section>
+
+        <!-- Sobre mí -->
+        <section class="sobreMi" id="sobreMi">
+            <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up">Sobre mí</h1>
+
+            <div class="container_content-sobreMi" data-aos="fade-right">
+                <div class="container_texto-sobreMi">
+                    <span class="title_sobreMi">Yon Trigozo</span>
+                    <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">Soy Egresado en la carrera tecnica de Desarrollo de Sistemas de Información enfocado netamente en programación Frontend.<br>Aspiro conseguir empleo en el mundo del Desarrollo Web, adquirir experiencia, nuevos conocimientos y fortalecer mi vida profesional.<br><br>Soy una persona que le gusta aprender y escuchar de las personas experimentadas en el area de front end, con competencias enfocadas en el trabajo en equipo, comunicación asertiva, resolución de problemas, responsable y proactiva, me gusta superarme continuamente.</span>
+                </div>
+    
+                <picture class="container_image-sobreMi">
+                    <img class="image_sobreMi" src="./assets/images/chico.png" alt="Ilustración mujer y café">
+                </picture>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h1 data-section="habilidades" data-value="title" data-aos="fade-up">Habilidades</h1>
+
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-habilidades">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-habilidades">
+
+            <div class="cards_container--habilidades">
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-html.png" alt="HTML">
+                    <p>HTML 5</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-css.png" alt="CSS">
+                    <p>CSS 3</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon-js.png" alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-git.png" alt="Git">
+                    <p>Git</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon-github-hab.png" alt="GitHub">
+                    <p>Github</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Formación -->
+        <section class="formacion" id="formacion">
+            <h1 data-section="formacion" data-value="title" data-aos="fade-up">Formación</h1>
+
+            <div class="cards_container--formacion">
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-unal" src="./assets/images/logo-unal.png" alt="Logo - Universidad Nacional de Colombia">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion1">Estadística</p>
+                        <p data-section="formacion" data-value="tiempo-formacion1">2019 - En curso</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-up" data-aos-duration="500">
+                    <img class="logo-one" src="./assets/images/logo-one.png" alt="Logo - ONE: Oracle Next Education">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion2">Desarrollo Web Full-Stack</p>
+                        <p data-section="formacion" data-value="tiempo-formacion2">2022 - 2023</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-sena" src="./assets/images/sena-logo.png" alt="Logo - SENA">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion3">Contabilización de Operaciones Comerciales y Financieras</p>
+                        <p>2017 - 2018</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section class="proyectos" id="proyectos">
+            <h1 data-section="proyectos" data-value="title" data-aos="fade-up">Proyectos</h1>
+
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-proyectos">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-proyectos">
+
+            <div class="cards_container--proyectos">
+                <div class="cards--proyectos card_JuegoAhorcado" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/cap-juegoAhorcado.png" alt="Proyecto: Juego del ahorcado">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto1">Juego del Ahorcado</h2>
+                        <p data-section="proyectos" data-value="info-proyecto1">Un juego donde el usuario debe adivinar la palabra secreta con un cierto número de oportunidades. La palabra se escoge de forma aleatoria por el programa y el usuario perderá en el momento en que la horca se complete.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://mariasmoun.github.io/Juego-del-Ahorcado/" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+
+                        <a href="https://github.com/mariasmoUN/Juego-del-Ahorcado" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./assets/images/icon-githubProyecto.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/cap-portafolio.png" alt="Proyecto: Portafolio">
+                    </div>
+
+                    <div class="container_textCard--proyectos text-portafolio">
+                        <h2 data-section="proyectos" data-value="title-proyecto2">Portafolio</h2>
+                        <p data-section="proyectos" data-value="info-proyecto2">Mi portafolio web personal, donde se encuentran algunos de mis proyectos más destacados, mis habilidades técnicas y un poco sobre mi formación.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="#" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+
+                        <a href="https://github.com/mariasmoUN/portafolio" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./assets/images/icon-githubProyecto.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos card_encriptador" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/cap-encriptador.png" alt="Proyecto: Encriptador">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">Encriptador de Texto</h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">Un ecriptador donde el usuario puede escribir un texto y el encriptador lo codifica con llaves ya programadas. El encriptador también permite desencriptar el texto.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://mariasmoun.github.io/Encriptador-de-texto/" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+
+                        <a href="https://github.com/mariasmoUN/Encriptador-de-texto" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./assets/images/icon-githubProyecto.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <!-- Contacto -->
+        <section class="contacto" id="contacto">
+            <h1 data-section="contacto" data-value="title" data-aos="fade-up">Contacto</h1>
+
+            <div class="container_box--contacto" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+    
+                <div class="container--contacto">
+                    <div class="container_text--contacto">
+                        <p data-section="contacto" data-value="text">Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.</p>
+                    </div>
+    
+                    <form id="form" class="form-contact" name="contacto-portafolio" netlify>
+                        <input id="nombre" type="text" name="name" placeholder="Nombre | Name" required>
+                        <input id="email" type="email" name="email" placeholder="E-mail" required>
+                        <input id="asunto" type="text" name="affair" placeholder="Asunto | Subject" required>
+                        <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Mensaje | Message" required></textarea>
+    
+                        <div class="btn_form--contacto">
+                            <button id="btn-enviar" type="submit" data-section="contacto" data-value="btn-enviar">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contianer--footer">
+            <div class="container_redes-footer">
+                <a href="https://www.linkedin.com/in/mariana-arias-montoya-b37a311a7/" target="_blank">
+                    <img src="./assets/images/icon-linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/mariasmoUN" target="_blank">
+                    <img src="./assets/images/icon-github.png" alt="GitHub">
+                </a>
+                <a href="https://codepen.io/mariasmoUN" target="_blank">
+                    <img src="./assets/images/icon-codepen.png" alt="CodePen" class="icon_codepen--footer">
+                </a>
+                <a href="https://www.instagram.com/mar.am0410/?next=%2F" target="_blank">
+                    <img src="./assets/images/icon-instagram.png" alt="Instagram"">
+                </a>
+            </div>
+
+            <div class="container_text--footer">
+                <span>Copyright © 2024 | triweb master</span>
+                <img src="./assets/images/icon-corazon.png" alt="Corazón">
+                <span>by</span>
+                <span>Yon Trigozo</span>
+            </div>
+        </div>
     </footer>
- </body>
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Mi script -->
+    <script src="./script.js"></script>
+</body>
 </html>
