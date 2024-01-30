@@ -47,7 +47,7 @@ html::-webkit-scrollbar-thumb {
 
 .header {
     background-color: var(--jet);
-    padding: .8rem 3rem;
+    padding: .5rem 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -75,7 +75,7 @@ nav.nav_menu.active {
     flex-direction: column;
     position: absolute;
     left: 0;
-    top: 10.3rem;
+    top: 9.5rem;
     width: 100%;
     height: auto;
     background-color: var(--eerie-black);
@@ -93,7 +93,7 @@ nav.nav_menu.active {
 }
 
 nav.nav_menu.active a {
-    padding: 2rem;
+    padding: 1.2rem;
     font-family: 'Cooper Hewitt';
     letter-spacing: .1rem;
     text-decoration: none;
@@ -368,10 +368,7 @@ span+span {
     margin: 0 .5rem;
 }
 
-.links .icon-CodePen {
-    width: 2.1rem;
-    margin-top: 2px;
-}
+
 
 /* Sobre mí */
 
@@ -551,7 +548,7 @@ img.logo-secu {
 
 img.logo-prima {
     width: 18rem;
-    margin: 2.4rem 0;
+    margin: 3.4rem 0;
 }
 
 .cards--formacion p:nth-child(1) {
