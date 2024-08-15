@@ -154,7 +154,7 @@ div.btn {
 }
 
 .contact_button:hover {
-    background-color: #776254;
+    background-color: var(--light-grey);
     box-shadow: 0px 2px 10px #141414;
     transition: 1s transform;
 }
