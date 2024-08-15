@@ -6,11 +6,11 @@
 
 :root {
     --white: #FFFFFF;
-    --light-grey: #D9D9D9;
-    --beaver: #7687a7;
+    --light-grey: #d9d9d9;
+    --beaver: #5d7cb6;
     --black: #141414;
     --eerie-black: #1F1F1F;
-    --jet: #1e2332;
+    --jet: #1c233a;
 }
 
 * {
@@ -65,7 +65,8 @@ html::-webkit-scrollbar-thumb {
 }
 
 .header .logo__header {
-    width: 15.5rem;
+    color: var(--light-grey);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 nav.nav_menu.active {
@@ -538,12 +539,13 @@ span+span {
 }
 
 img.logo-superior {
-    width: 24rem;
+    width: 18rem;
+    margin: 3.4rem 0;;
 }
 
 img.logo-secu {
-    width: 21rem;
-    margin: 3rem 0 5rem 0;
+    width: 18rem;
+    margin: 3.4rem 0;
 }
 
 img.logo-prima {
