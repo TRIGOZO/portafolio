@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Front" width="1063" height="709" viewBox="0 0 1063 709">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7b8098;
+      }
+
+      .cls-1, .cls-4, .cls-6 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 19.028px;
+      }
+
+      .cls-2 {
+        fill: #d8dcdf;
+        font-family: RussoOne;
+      }
+
+      .cls-3 {
+        fill: #dde1e4;
+        font-family: Cambria;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        stroke: #000;
+        stroke-width: 0;
+      }
+
+      .cls-6 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 8.333px;
+      }
+    </style>
+  </defs>
+  <g id="Background">
+    <path id="Rectangle" class="cls-1" d="M532.7,249.315L637.534,354.147,532.7,458.978,427.871,354.147Z"/>
+  </g>
+  <g id="Design">
+    <text id="brand" class="cls-2" transform="translate(-38969.367 -32283.393) scale(4.163 4.16)">Triweb</text>
+    <text id="logo" class="cls-3" transform="translate(-38919.406 -32282.33) scale(4.163 4.16)"> Master</text>
+    <g id="sombrero">
+      <path id="Forma_1" data-name="Forma 1" class="cls-4" d="M668.627,220.962l-1.538.091c-33.2-4.612-66.457-6.5-99.662-11.072-31.516-7.134-43.927-25.136-66.935-36.775C486.831,163,473.8,155.061,460.413,145.2a6.8,6.8,0,0,0,.664-1.878c21.468,2.258,42.93,4.806,65.929,7.342,16.375,0.709,32.721,3.045,50.63,5.657C607.2,177.093,637.668,197,667.463,217.557l1.219,0.333Z"/>
+      <path id="Forma_2" data-name="Forma 2" class="cls-4" d="M664.852,318.725c6.167-3.516,8.387-11.121,14.692-17.475-0.562-20.52-8.294-28.156-22.009-35.5-9.631-4.134-17.682-23.536-11.973-43.662,1.015,0.531,4.375-1.2,3.569,2.523-4.218,22.308,3.519,36.923,17.387,42.46,12.993,4.411,17.518,21.6,17.854,42.246-3.04,4.368-.655,14.485-6.91,19.113-4.055-2.362-8.147-2.631-12.205-4.78C665.257,323.648,665.336,319.226,664.852,318.725Z"/>
+      <path id="Forma_3" data-name="Forma 3" class="cls-4" d="M485.4,169.134l67.2,45.76,71.4,7.138L600.929,266.18,463.565,209.786Z"/>
+    </g>
+  </g>
+  <g id="Text">
+    <circle id="Ellipse" class="cls-5" cx="738.25" cy="495.688" r="5.5"/>
+    <circle id="Ellipse-2" data-name="Ellipse" class="cls-5" cx="286.25" cy="495.688" r="5.5"/>
+  </g>
+  <path id="Elipse_1" data-name="Elipse 1" class="cls-6" d="M513.5,56.679c162.321,0,293.909,121.7,293.909,271.821S675.821,600.321,513.5,600.321,219.591,478.622,219.591,328.5,351.179,56.679,513.5,56.679Z"/>
+</svg>
