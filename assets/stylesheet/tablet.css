@@ -1,15 +1,16 @@
 /* Header */
 
 nav.nav_menu.active {
-    width: 50%;
-    margin-left: 50%;
-    top: 5.9rem;
+    width: 70%;
+    margin-left: 15%;
+
+
 }
 
 /* Home */
 
 .image_home {
-    max-width: 50rem;
+    max-width: 60rem;
 }
 
 .container_text-info {

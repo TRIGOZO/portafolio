@@ -47,7 +47,7 @@ html::-webkit-scrollbar-thumb {
 
 .header {
     background-color: var(--jet);
-    padding: .5rem 3rem;
+    padding: 2rem 0.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,18 +69,25 @@ html::-webkit-scrollbar-thumb {
     font-family: 'Courier New', Courier, monospace;
 }
 
-nav.nav_menu.active {
+.nav_menu.abajo{
+    background: var(--beavereaver);
+    backdrop-filter: blur(15px);
+}
+nav.nav_menu.active  {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: absolute;
     left: 0;
-    top: 9.5rem;
+    top: 6.2rem;
     width: 100%;
     height: auto;
-    background-color: var(--eerie-black);
+    background-color: var(--light-grey) ; 
+    background: var(--beavereaver);
+    backdrop-filter: blur(15px);
     box-shadow: 0 10px 16px -6px rgb(5 5 5 / 30%), 0 25px 10px -24px rgb(5 5 5 / 10%);
+    border-radius: 0 0 2.5rem 2.5rem;
     animation: ease .4s left forwards;
 }
 
@@ -100,7 +107,8 @@ nav.nav_menu.active a {
     text-decoration: none;
     color: var(--white);
     font-size: 2rem;
-    width: 100%;
+    width: 80%;
+    border-radius: .2rem;
     text-align: center;
 }
 
@@ -134,8 +142,8 @@ nav.nav_menu.not-active .flags {
 
 .btn {
     position: absolute;
-    top: 50%;
-    right: 2rem;
+    top: calc(50% + .2rem);
+    right: 1.5rem;
     transform: translate(-50%, -50%);
     width: 3rem;
     cursor: pointer;
