@@ -7,10 +7,20 @@
 :root {
     --white: #FFFFFF;
     --light-grey: #d9d9d9;
-    --beaver: #5d7cb6;
-    --black: #141414;
-    --eerie-black: #1F1F1F;
-    --jet: #1c233a;
+    --beaver: #cccccf;
+    --black: #1F2028;
+    --eerie-black:#1F2028;
+    --jet: #1F2028;
+
+      /* colores del diseño */
+
+    --base-primario:#1F2028;
+    --base-secundario: #2e3039;
+    --scroll-primario: #424242;
+    --scroll-secundario: #7B7B7B;
+    --white: #FFFFFF;
+   
+
 }
 
 * {
@@ -22,7 +32,7 @@
 html {
     font-size: 62.5%;
     scrollbar-width: thin;
-    scrollbar-color: var(--beaver) var(--eerie-black);
+    scrollbar-color: var(--scroll-primario) var(--scroll-secundario);
     scroll-behavior: smooth;
 }
 
@@ -31,12 +41,12 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    background-color: var(--eerie-black);
+    background-color: var(--scroll-primario);
 }
 
 
 html::-webkit-scrollbar-thumb {
-    background-color: var(--beaver);;
+    background-color: var(--base-secundario);;
 }
 
 ::selection {
@@ -59,7 +69,9 @@ html::-webkit-scrollbar-thumb {
     transition: .5s;
 }
 
-.header.abajo {
+
+
+.nav_menu.abajo , .header.abajo {
     backdrop-filter: blur(15px);
     background: rgba(41,41,41,.3);
 }
@@ -69,10 +81,7 @@ html::-webkit-scrollbar-thumb {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.nav_menu.abajo{
-    background: var(--beavereaver);
-    backdrop-filter: blur(15px);
-}
+
 nav.nav_menu.active  {
     display: flex;
     justify-content: center;
@@ -83,7 +92,7 @@ nav.nav_menu.active  {
     top: 6.2rem;
     width: 100%;
     height: auto;
-    background-color: var(--light-grey) ; 
+    background-color: var(--light-grey) blur(15px) ; 
     background: var(--beavereaver);
     backdrop-filter: blur(15px);
     box-shadow: 0 10px 16px -6px rgb(5 5 5 / 30%), 0 25px 10px -24px rgb(5 5 5 / 10%);
@@ -114,7 +123,7 @@ nav.nav_menu.active a {
 
 nav.nav_menu.active a:hover {
     color: var(--beaver);
-    background-color: var(--black);
+    background-color: var(--white);
     transition: all .4s;
 }
 
@@ -134,6 +143,7 @@ nav.nav_menu.active .flags__item {
     margin: 0 .3rem;
     filter: contrast(65%);
     cursor: pointer;
+    
 }
 
 nav.nav_menu.not-active .flags {
@@ -155,7 +165,7 @@ nav.nav_menu.not-active .flags {
     box-shadow: 0 2px 10px 0 rgb(0, 0, 0, 0.3);
     border-radius: 3px;
     height: .3rem;
-    background: var(--beaver);
+    background: var(--white);
     transition: all .3s;
     position: relative;
 }
@@ -272,7 +282,7 @@ span+span {
 /* Home */
 
 .home {
-    background-color: var(--jet);
+    background-color: var(--base-primario);
     width: 100%;
     height: auto;
 }
@@ -348,10 +358,10 @@ span+span {
 }
 
 .cv_button {
-    background-color: var(--beaver);
+    background-color: var(--base-secundario);
     border-radius: 3rem;
     padding: .6rem 2rem .5rem 2rem;
-    color: var(--jet);
+    color: var(--white);
     font-family: 'Cooper Hewitt';
     font-weight: bold;
     font-size: 1.6rem;
@@ -364,6 +374,7 @@ span+span {
 
 .contact_button {
     display: none;
+    background-color: var(--white);
 }
 
 .links {
@@ -525,7 +536,7 @@ span+span {
 }
 
 .cards--formacion {
-    background-color: var(--jet);
+    background-color: var(--base-secundario);
     border-radius: 24px;
     display: flex;
     flex-direction: column;
@@ -611,7 +622,7 @@ img.logo-prima {
 .cards--proyectos {
     border-radius: 20px;
     padding-bottom: 2rem;
-    background-color: var(--eerie-black);
+    background-color: var(--base-secundario);
     min-width: 33rem;
     max-width: 38rem;
     box-shadow: 0 10px 16px -6px rgb(5 5 5 / 30%), 0 25px 10px -24px rgb(5 5 5 / 10%);
@@ -683,7 +694,7 @@ img.logo-prima {
 .btn_demo {
     padding: .9rem 0;
     border: none;
-    background-color: var(--beaver);
+    background-color: var(--white);
     color: var(--eerie-black);
 }
 
@@ -699,10 +710,12 @@ img.logo-prima {
     margin-right: .8rem;
 }
 
-.container_btn--proyectos .btn_demo:hover {
-    background: #505b6f;
-    box-shadow: 0px 13px 33px -14px rgba(0,0,0,0.75);
+.container_btn--proyectos .btn_demo:hover{
+    background-color: var(--base-primario);
+    box-shadow: 14px 13px 13px -14px var(--white);
     transition: all .4s ease;
+    color: var(--white);
+    
 }
 
 .btn_repo img {
@@ -719,7 +732,7 @@ img.logo-prima {
 /* Contacto */
 
 .contacto {
-    background-color: var(--eerie-black);
+    background-color: var(--base-primario);
     width: 100%;
     height: auto;
     padding: 0 2rem 5rem 2rem;
@@ -741,7 +754,7 @@ img.logo-prima {
 
 .container--contacto {
     width: 100%;
-    background-color: var(--beaver);
+    background-color: var(--base-secundario);
     border-radius: 24px;
     padding: 3rem;
     position: relative;
@@ -780,12 +793,12 @@ img.logo-prima {
 
 .form-contact .input-invalid {
     border: 1px solid #31468a;
-    color: #7687a7;
+    color:var(--white);
 }
 
 .form-contact textarea {
     background: transparent;
-    border: 1px solid var(--light-grey);
+    border: 1px solid var(--white);
     font-family: 'Cooper Hewitt';
     width: 100%;
     padding: 1rem;
@@ -812,7 +825,7 @@ img.logo-prima {
 
 
 .form-contact textarea::-webkit-scrollbar-thumb {
-    background-color: #386082;
+    background-color: #1175cc;
 }
 
 
@@ -822,12 +835,13 @@ img.logo-prima {
 }
 
 .btn_form--contacto button {
-    background: #5c6980;
+    background: var(--base-secundario);
     border: none;
     font-family: 'Cooper Hewitt';
     width: 20rem;
     padding: .8rem 1rem;
     border-radius: 1rem;
+    border: 1px solid var(--white);
     color: var(--white);
     font-size: 1.8rem;
     letter-spacing: 1px;
@@ -836,26 +850,27 @@ img.logo-prima {
 }
 
 .btn_form--contacto button:hover {
-    background: #7687a7;
-    color: var(--black);
+    background: var(--base-secundario);
+    color: var(--white);
     font-weight: bold;
-    transform: scale(1.1);
-    box-shadow: 0px 9px 15px -1px rgba(0,0,0,0.20);
+    transform: scale(1.2);
+    box-shadow: -5px 5px 2px 1px var(--base-primario);
     transition: all .4s ease;
+    border: 1px solid var(--white);
 }
 
 .btn_form--contacto button:active {
-    background: #7687a7;
+    background: var(--base-primario);
 }
 
 /* Footer */
 
 footer {
-    background-color: var(--eerie-black);
+    background-color: var(--base-primario);
 }
 
 .contianer--footer {
-    border-top: 1px solid var(--jet);
+    border-top: 1px solid var(--scroll-secundario);
     width: 90%;
     margin: 0 auto;
     padding-top: 4rem;
