@@ -34,23 +34,6 @@ btn.addEventListener('click', function() {
     }
 });
 
-/*===== Cambio de idioma =====*/
-const changeLanguage = async language => {
-    const requestJson = await fetch(`./languages/${language}.json`);
-    const texts = await requestJson.json();
-
-    for(const textToChange of textsToChange) {
-        const section = textToChange.dataset.section;
-        const value = textToChange.dataset.value;
-
-        textToChange.innerHTML = texts[section][value];
-    }
-}
-
-flagsElement.addEventListener('click', (e) => {
-    changeLanguage(e.target.parentElement.dataset.language);
-})
-
 /*===== class active por secciones =====*/
 window.addEventListener('scroll', () => {
     const scrollY = window.pageYOffset;

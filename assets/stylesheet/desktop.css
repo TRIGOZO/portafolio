@@ -1,7 +1,7 @@
 /* Header */
 
 .header {
-    justify-content: space-between;
+    justify-content: space-around;
     padding: .8rem 3rem;
     z-index: 2;
 }
@@ -278,32 +278,13 @@ div.btn {
     font-size: 3rem;
 }
 
-.puntos1-proyectos {
-    display: inline;
-    position: absolute;
-    width: 6rem;
-    margin: 20rem 0 0  1%;
-    background-attachment: fixed;
-}
-
-.puntos2-proyectos {
-    display: inline;
-    position: absolute;
-    width: 6rem;
-    margin: -3rem 0 0 93%;
-}
-
 .cards_container--proyectos {
     flex-direction: row;
-    justify-content: center;
+  justify-content: center;
 }
 
 .cards--proyectos {
-    width: 40rem;
-    height: 40rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    height: 42rem;
     margin: 0 1.5rem;
     z-index: 1;
 }

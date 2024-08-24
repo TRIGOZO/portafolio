@@ -512,7 +512,7 @@ span+span {
 /* Formación */
 
 .formacion {
-    background-color: var(--eerie-black);
+    background-color: var(--base-primario);
     width: 100%;
     height: auto;
 }
@@ -528,8 +528,7 @@ span+span {
 }
 
 .cards_container--formacion {
-    display: flex;
-    flex-direction: column;
+    display: flex;  
     align-items: center;
     justify-content: center;
     padding: 0 2rem 3rem 2rem;
@@ -591,9 +590,8 @@ img.logo-prima {
 /* Proyectos */
 
 .proyectos {
-    background-color: var(--jet);
-    width: 100%;
-    height: auto;
+    
+    background-color: var(--base-primario);  
     padding: 0 1rem 1rem 1rem;
 }
 
@@ -607,16 +605,12 @@ img.logo-prima {
     padding: 6rem 0 5rem 0;
 }
 
-.puntos1-proyectos,
-.puntos2-proyectos {
-    display: none;
-}
+
 
 .cards_container--proyectos {
-    margin-bottom: 5rem;
+    
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    border-color: var(--white);
 }
 
 .cards--proyectos {
@@ -625,16 +619,12 @@ img.logo-prima {
     background-color: var(--base-secundario);
     min-width: 33rem;
     max-width: 38rem;
-    box-shadow: 0 10px 16px -6px rgb(5 5 5 / 30%), 0 25px 10px -24px rgb(5 5 5 / 10%);
-}
-
-.card_JuegoAhorcado {
-    margin-bottom: 4rem;
+    box-shadow: 0 10px 16px -6px var(--base-secundario);
 }
 
 .card_portafolio {
     margin-bottom: 4rem;
-    border: 1px solid var(--eerie-black);
+    border: 1px  var(--base-primario);
 }
 
 .container_imgCard--proyectos {
@@ -655,15 +645,17 @@ img.logo-prima {
 .container_textCard--proyectos h2 {
     font-family: 'Cooper Hewitt';
     letter-spacing: .1rem;
+    text-align: center;
     font-size: 1.8rem;
     color: var(--white);
     font-weight: bold;
-    display: inline;
+   
 }
 
 .container_textCard--proyectos p {
     color: var(--white);
     font-family: 'Cooper Hewitt';
+    text-align: justify;
     letter-spacing: .1rem;
     font-size: 1.4rem;
     margin-top: 1rem;
@@ -695,24 +687,25 @@ img.logo-prima {
     padding: .9rem 0;
     border: none;
     background-color: var(--white);
-    color: var(--eerie-black);
+    color: var(--black);
 }
 
 .btn_repo {
     padding: .8rem 0;
     background: none;
-    color: var(--beaver);
-    border: 1px solid var(--beaver);
+    color: var(--white);
+    border: 1px solid var(--white);
 }
 
-.btn_demo img {
+.btn_demo img {  
     width: 2rem;
     margin-right: .8rem;
 }
 
 .container_btn--proyectos .btn_demo:hover{
     background-color: var(--base-primario);
-    box-shadow: 14px 13px 13px -14px var(--white);
+    box-shadow: 14px 13px 13px -14px var(--base-primario);
+    background-image: var(--white);
     transition: all .4s ease;
     color: var(--white);
     
@@ -724,8 +717,8 @@ img.logo-prima {
 }
 
 .container_btn--proyectos .btn_repo:hover {
-    background: var(--black);
-    box-shadow: 0px 13px 33px -14px rgba(0,0,0,0.75);
+    background: var(--base-primario);
+    box-shadow: 0px 13px 33px -14px  var(--white);
     transition: all .4s ease;
 }
 
@@ -776,7 +769,7 @@ img.logo-prima {
 .form-contact input {
     font-family: 'Cooper Hewitt';
     background: transparent;
-    border: 1px solid var(--light-grey);
+    border: 1px solid var(--white);
     width: 100%;
     padding: 1rem;
     border-radius: 1rem;
