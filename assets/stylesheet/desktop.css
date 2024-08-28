@@ -255,8 +255,8 @@ div.btn {
 /* Formación */
 
 .formacion {
-    padding-bottom: 2rem;
-    position: relative;
+    flex-direction: row;
+  justify-content: center;
 }
 
 .formacion h1 {
@@ -273,15 +273,17 @@ div.btn {
 
 /* Proyectos */
 
+.proyectos{
+    flex-direction: row;
+    justify-content: center;
+}
+
 .proyectos h1 {
     padding-top: 8rem;
     font-size: 3rem;
 }
 
-.cards_container--proyectos {
-    flex-direction: row;
-  justify-content: center;
-}
+
 
 .cards--proyectos {
     height: 42rem;

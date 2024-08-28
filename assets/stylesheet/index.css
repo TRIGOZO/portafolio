@@ -591,9 +591,9 @@ img.logo-prima {
 /* Proyectos */
 
 .proyectos {
-    
     background-color: var(--base-primario);  
-    padding: 0 1rem 1rem 1rem;
+    width: 100%;
+    height: auto;  
 }
 
 .proyectos h1 {
@@ -609,11 +609,9 @@ img.logo-prima {
 
 
 .cards_container--proyectos {
-    
     display: flex;
     flex-direction: column;
-    border-color: var(--white);
-    
+    align-items: center;
 }
 
 .cards--proyectos {
