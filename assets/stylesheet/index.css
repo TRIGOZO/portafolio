@@ -536,17 +536,17 @@ span+span {
 }
 
 .cards--formacion {
-    background-color: var(--base-secundario);
-    border-radius: 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-color: var(--base-secundario);
+    border-radius: 24px;
     width: 32rem;
     height: 33rem;
     margin: 0 1rem 2rem 1rem;
     padding: 1rem;
-    justify-content: space-between;
+
 }
 
 .cards--formacion img {
@@ -606,21 +606,26 @@ img.logo-prima {
     padding: 6rem 0 5rem 0;
 }
 
-
-
 .cards_container--proyectos {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .cards--proyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     border-radius: 20px;
-    padding-bottom: 2rem;
+    padding-bottom: 2.54rem;
+    margin-right: 2.5rem;
     background-color: var(--base-secundario);
     min-width: 33rem;
     max-width: 38rem;
-    box-shadow: 0 10px 16px -6px var(--base-secundario);
+    border: 1px solid var(--white);
+   
 }
 
 .card_portafolio {
@@ -631,6 +636,7 @@ img.logo-prima {
 .container_imgCard--proyectos {
     margin-bottom: 1rem;
     border-radius: 20px 20px 0 0;
+    border: 1px solid var(--white);
 }
 
 .container_imgCard--proyectos img {
@@ -832,7 +838,7 @@ img.logo-prima {
     background: var(--base-secundario);
     border: none;
     font-family: 'Cooper Hewitt';
-    width: 20rem;
+    width: 10rem;
     padding: .8rem 1rem;
     border-radius: 1rem;
     border: 1px solid var(--white);

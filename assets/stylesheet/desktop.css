@@ -8,6 +8,8 @@
 
 nav.nav_menu {
     display: flex;
+    margin-right: 30rem;
+    justify-content: center;
 }
 
 nav.nav_menu a {
@@ -31,12 +33,13 @@ nav.nav_menu a.active {
 
 nav.nav_menu.not-active a {
     display: flex;
+    justify-content: center;
 }
 
 nav.nav_menu.not-active .flags {
     display: flex;
     width: 7rem;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -283,23 +286,10 @@ div.btn {
     font-size: 3rem;
 }
 
-
-
-.cards--proyectos {
-    height: 42rem;
-    margin: 0 1.5rem;
-    z-index: 1;
-}
-
 .text-portafolio {
     margin-top: -3rem;
 }
 
-.container_btn--proyectos button {
-    width: auto;
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
-}
 
 /* Contacto */
 
