@@ -529,6 +529,7 @@ span+span {
 
 .cards_container--formacion {
     display: flex;  
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 0 2rem 3rem 2rem;
@@ -610,7 +611,9 @@ img.logo-prima {
 .cards_container--proyectos {
     
     display: flex;
+    flex-direction: column;
     border-color: var(--white);
+    
 }
 
 .cards--proyectos {
