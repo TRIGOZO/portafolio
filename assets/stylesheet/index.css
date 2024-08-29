@@ -77,14 +77,11 @@ nav.nav_menu.active  {
     align-items: center;
     flex-direction: column;
     position: absolute;
-    left: 0;
     top: 6.2rem;
     width: 100%;
     height: auto;
-    background-color: var(--base-secundario) blur(15px) ; 
-    
-    backdrop-filter: blur(15px);
-    box-shadow: 0 10px 16px -6px var(--black);
+    background-color:var(--base-secundario); 
+    box-shadow: 0 -1px 10px 1px var(--scroll-secundario) ;
     border-radius: 0 0 2.5rem 2.5rem;
     animation: ease .4s left forwards;
 }
@@ -151,8 +148,7 @@ nav.nav_menu.not-active .flags {
 #button span {
     display: block;
     width: 100%;
-    
-    border-radius: 3px;
+    border-radius: 3rem;
     height: .3rem;
     background-color: var(--white);
     transition: all .3s;
@@ -305,7 +301,7 @@ span+span {
 
 .home_text-2 {
     font-family: 'PT Sans';
-    color: var(--beaver);
+    color: var(--white);
     font-size: 3.2rem;
     margin-bottom: 1rem;
 }
@@ -882,7 +878,7 @@ footer {
 
 .container_text--footer span:nth-child(1),
 .container_text--footer span:nth-child(3) {
-    color: var(--light-grey);
+    color: var(--white);
 }
 
 .container_text--footer img {
@@ -891,7 +887,7 @@ footer {
 }
 
 .container_text--footer span:nth-child(4) {
-    color: var(--beaver);
+    color: var(--white);
     letter-spacing: .1rem;
     margin-left: .2rem;
 }

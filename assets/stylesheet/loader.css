@@ -9,7 +9,7 @@ html {
 }
 
 .container--loader {
-    background-color: var(--eerie-black);
+    background-color: var(--base-primario);
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -30,7 +30,7 @@ html {
 }
 
 .loader {
-    color: var(--beaver);
+    color: var(--base-secundario);
     font-size: 13px;
     position: relative;
     animation-delay: -0.16s;
