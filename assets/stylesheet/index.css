@@ -608,7 +608,7 @@ img.logo-prima {
 
 .cards_container--proyectos {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -620,17 +620,12 @@ img.logo-prima {
     text-align: center;
     border-radius: 20px;
     padding-bottom: 2.54rem;
-    margin-right: 2.5rem;
+    margin-bottom: 2.5rem;
     background-color: var(--base-secundario);
-    min-width: 33rem;
-    max-width: 38rem;
+    margin-right: 1.5rem;
+    margin-left:  1.5rem;
     border: 1px solid var(--white);
    
-}
-
-.card_portafolio {
-    margin-bottom: 4rem;
-    border: 1px  var(--base-primario);
 }
 
 .container_imgCard--proyectos {
