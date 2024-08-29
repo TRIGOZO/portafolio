@@ -8,8 +8,8 @@
 
 nav.nav_menu {
     display: flex;
-    margin-right: 30rem;
     justify-content: center;
+    align-content: center;
 }
 
 nav.nav_menu a {
@@ -25,9 +25,9 @@ nav.nav_menu a {
 
 nav.nav_menu a:hover,
 nav.nav_menu a.active {
-    color: var(--beaver);
+    color: var(--white);
     padding: .5rem;
-    border-bottom: 1px solid var(--beaver);
+    border-bottom: 1px solid var(--white);
     transition: all .5s;
 }
 
@@ -115,7 +115,7 @@ div.btn {
 
 .container_parrafo-info p {
     font-family: 'Cooper Hewitt';
-    color: var(--light-grey);
+    color: var(--white);
     font-size: 1.4rem;
     letter-spacing: 1px;
     line-height: 2rem;
@@ -127,38 +127,41 @@ div.btn {
 
 .cv_button {
     background: none;
-    color: var(--beaver);
-    border: 1px solid var(--beaver);
+    color: var(--white);
+    border: 1px solid var(--white);
     margin-right: 1rem;
     transition: .2s;
 }
 
 .cv_button:hover {
-    background: var(--black);
-    box-shadow: 0px 2px 10px #141414;
+    
+    border: var(--base-secundario);
+    background: var(--base-secundario);
+    box-shadow: 0px 2px 10px var(--black);
     transition: 1s transform;
 }
 
 .contact_button {
     display: inline-block;
-    background-color: var(--beaver);
-    border-radius: 3rem;
+    background-color: var(--white);
+    border-radius: 1.5rem;
     padding: .7rem 4rem .6rem 4rem;
-    color: var(--jet);
+    color: var(--black);
     font-family: 'Cooper Hewitt';
     font-weight: bold;
     font-size: 1.6rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
     margin: 2rem 0 2rem 1rem;
-    border: none;
+    border: 1px;
     cursor: pointer;
-    transition: .4s;
+    transition: .1s;
 }
 
 .contact_button:hover {
-    background-color: var(--light-grey);
-    box-shadow: 0px 2px 10px #141414;
+    background-color: var(--base-secundario);
+    color: var(--white);
+    box-shadow: 0px 2px 10px var(--black);
     transition: 1s transform;
 }
 
@@ -222,21 +225,6 @@ div.btn {
     font-size: 3rem;
 }
 
-.puntos1-habilidades {
-    display: inline;
-    position: absolute;
-    width: 6rem;
-    margin: 15rem 0 0 /* 41rem */ 20%;
-    background-attachment: fixed;
-}
-
-.puntos2-habilidades {
-    display: inline;
-    position: absolute;
-    width: 6rem;
-    margin: 0 0 0 76%;
-}
-
 .cards_container--habilidades {
     grid-template-columns: 13rem 13rem 13rem 13rem;
     grid-template-rows: 14rem 14rem;
@@ -246,7 +234,8 @@ div.btn {
 
 .cards--habilidades:hover {
     filter: saturate(100%);
-    border: 1px solid var(--beaver);
+    border: 1px solid var(--black);
+    background-color:var(--base-secundario);
     transition: all 1s;
 }
 
@@ -268,10 +257,11 @@ div.btn {
 }
 
 .cards--formacion:hover {
-    border: 1px solid var(--beaver);
-    box-shadow: 0 10px 16px -6px rgb(5 5 5 / 30%), 0 25px 10px -24px rgb(5 5 5 / 10%);
+    background-color: var(--base-secundario);
+    border: 1px solid var(--base-secundario);
+    box-shadow: 0 10px 16px -6px  var(--base-secundario);
     transform: scale(1.1);
-    transition: .4s all;
+    transition: .1s all;
 }
 
 /* Proyectos */
