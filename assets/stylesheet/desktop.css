@@ -61,14 +61,13 @@ div.btn {
 
 .home {
     display: flex;
-    flex-direction: row-reverse;
-    padding-bottom: 4rem;
-    height: 100vh;
+    flex-direction: row-reverse; 
 }
 
 .container_image-home {
-    width: 55%;
-    padding-right: 4rem;
+    width: 1000%;
+    height: 100%;
+    ;
 }
 
 .image_home {
@@ -76,8 +75,9 @@ div.btn {
 }
 
 .home_info {
-    width: 40%;
-    padding-left: 6rem;
+    width: 100%;
+    margin-left: 15rem;
+    margin-right: 2rem;
 }
 
 .container_text-info {
@@ -85,13 +85,12 @@ div.btn {
     flex-direction: column;
     align-items: flex-start;
     letter-spacing: .2rem;
-    text-align: start;
     margin-top: 6rem;
 }
 
 .home_text-1 {
     font-size: 3.5rem;
-    margin-left: .4rem;
+    margin-left: 20.4rem;
     font-weight: bold;
 }
 
@@ -103,15 +102,15 @@ div.btn {
 
 .home_text-3 {
     margin: 0 0 2rem 0;
-    font-size: 1.8rem;
-    width: 35rem;
+    font-size: 1.5rem;
+    width: 55rem;
     letter-spacing: .2rem;
 }
 
-.container_parrafo-info {
+/* .container_parrafo-info {
     display: inline-block;
     text-align: start;
-}
+} */
 
 .container_parrafo-info p {
     font-family: 'Cooper Hewitt';
@@ -123,14 +122,33 @@ div.btn {
 
 .container_button {
     display: flex;
+    justify-content: center;
+    margin-right: 1.5rem;
+   
 }
 
 .cv_button {
-    background: none;
+    
     color: var(--white);
-    border: 1px solid var(--white);
     margin-right: 1rem;
     transition: .2s;
+
+    display: inline-block;
+    
+    border-radius: 1.5rem ;
+    padding: .7rem 4rem .6rem 4rem;
+    
+    font-family: 'Cooper Hewitt';
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin: 2rem 0 2rem 1rem;
+    border: 1px;
+    cursor: pointer;
+    transition: .1s;
+
+    
 }
 
 .cv_button:hover {
@@ -166,38 +184,38 @@ div.btn {
 }
 
 .links {
-    width: 5%;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 0 3rem 21rem 3rem;
+    width: auto;
+    flex-direction: row;
+    justify-content: center;
+    
+    
 }
 
 .links img {
-    margin: .7rem 0 .7rem 0;
-}
-
-.links .icon-CodePen {
-    margin: .7rem 0 .7rem .2rem;
+    width: 3.5rem;
+    margin: 1rem;
 }
 
 /* Sobre Mí */
 
 .sobreMi {
-    padding-bottom: 4rem;
+    padding-bottom: 8rem;
+    position: relative;
 }
 
 .sobreMi h1 {
-    margin-top: 2rem;
+    margin-top: 3rem;
     font-size: 3rem;
 }
 
 .container_content-sobreMi {
+    justify-content: center;
     flex-direction: row-reverse;
 }
 
 .container_texto-sobreMi {
     width: 70%;
-    padding: 0 5% 0 3rem;
+    margin-right: 15rem;
 }
 
 .title_sobreMi {
@@ -207,7 +225,7 @@ div.btn {
 }
 
 .texto_sobreMi {
-    text-align: start;
+    text-align: justify;
     font-size: 2rem;
     letter-spacing: .2rem;
     line-height: 2.8rem;
@@ -216,7 +234,7 @@ div.btn {
 /* Habilidades */
 
 .habilidades {
-    padding-bottom: 8rem;
+    padding-bottom: 10rem;
     position: relative;
 }
 
@@ -247,12 +265,12 @@ div.btn {
 /* Formación */
 
 .formacion {
-    flex-direction: row;
-  justify-content: center;
+    padding-top: 20rem;
+    font-size: 3rem;
 }
 
 .formacion h1 {
-    padding-top: 8rem;
+    padding-top: 03rem;
     font-size: 3rem;
 }
 
@@ -267,8 +285,8 @@ div.btn {
 /* Proyectos */
 
 .proyectos{
-    flex-direction: row;
-    justify-content: center;
+    padding-bottom: 100rem;
+    position: relative;
 }
 
 .cards_container--proyectos {
@@ -289,14 +307,19 @@ div.btn {
 
 
 /* Contacto */
+.contacto{
+    padding-top: 19rem;
+    
+
+}
 
 .contacto h1 {
-    padding: 8rem 0 2.5rem 0;
+ 
     font-size: 3rem;
 }
 
 .container_box--contacto {
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: space-evenly;
 }

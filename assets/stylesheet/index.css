@@ -307,14 +307,14 @@ span+span {
 }
 
 .home_text-3 {
-    font-family: 'Cooper Hewitt';
+    font-family: 'Cooper Hewitt' ;
     color: var(--white);
     font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: .2rem;
     width: 28rem;
     margin: 0 auto;
-    text-align: start;
+    text-align: center;
 }
 
 .text-type {
@@ -338,21 +338,21 @@ span+span {
     }
 }
 
-.container_parrafo-info {
+/* .container_parrafo-info {
     display: none;
-}
+} */
 
 .cv_button {
     background-color: var(--base-secundario);
     border-radius: 1.5rem;
-    padding: .6rem 2rem .5rem 2rem;
+    padding: 1.5rem 2rem 1.5rem 2rem;
     color: var(--white);
     font-family: 'Cooper Hewitt';
     font-weight: bold;
     font-size: 1.6rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    margin: 2.2rem 0;
+    margin: 4.2rem 0;
     border: none;
     cursor: pointer;
 }
@@ -371,7 +371,8 @@ span+span {
 
 .links img {
     width: 2.4rem;
-    margin: 0 .5rem;
+    height: auto;
+    margin: 1rem;
 }
 
 
